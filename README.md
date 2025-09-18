@@ -37,14 +37,15 @@ Dataset final → `data/processed/hotels_final.csv`
 ---
 
 ## 📂 Estructura del proyecto
+```bash
 HotelFlix/
 ├─ data/
-│ ├─ raw/ # datasets originales
-│ ├─ interim/ # pasos intermedios de limpieza
-│ └─ processed/ # dataset final para la app
-├─ scripts/ # ETL paso a paso (Python)
-├─ app/ # aplicación en Streamlit
-├─ README.md # este archivo
+│  ├─ raw/         # datasets originales
+│  ├─ interim/     # pasos intermedios de limpieza
+│  └─ processed/   # dataset final para la app
+├─ scripts/        # ETL paso a paso (Python)
+├─ app/            # aplicación en Streamlit
+├─ README.md       # este archivo
 └─ requirements.txt
 
 ---
